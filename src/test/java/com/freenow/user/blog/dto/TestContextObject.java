@@ -3,6 +3,9 @@ package com.freenow.user.blog.dto;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Used to Encapsulate data set by independent tests and get by dependent tests
+ */
 public class TestContextObject {
     private int userId;
     private List<Post> posts;
