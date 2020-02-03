@@ -1,8 +1,8 @@
 package com.freenow.user.blog.dto;
 
 public class Comment {
-    private float postId;
-    private float id;
+    private int postId;
+    private int id;
     private String name;
     private String email;
     private String body;
@@ -10,11 +10,11 @@ public class Comment {
 
     // Getter Methods
 
-    public float getPostId() {
+    public int getPostId() {
         return postId;
     }
 
-    public float getId() {
+    public int getId() {
         return id;
     }
 
@@ -32,11 +32,11 @@ public class Comment {
 
     // Setter Methods
 
-    public void setPostId(float postId) {
+    public void setPostId(int postId) {
         this.postId = postId;
     }
 
-    public void setId(float id) {
+    public void setId(int id) {
         this.id = id;
     }
 

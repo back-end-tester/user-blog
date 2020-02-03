@@ -7,7 +7,7 @@ import java.util.List;
  * Used to Encapsulate data set by independent tests and get by dependent tests
  */
 public class TestContextObject {
-    private int userId;
+    private User user;
     private List<Post> posts;
     private List<Comment> comments;
 
@@ -16,12 +16,12 @@ public class TestContextObject {
         comments = new ArrayList<>();
     }
 
-    public int getUserId() {
-        return userId;
+    public User getUser() {
+        return user;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public List<Post> getPosts() {
